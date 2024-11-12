@@ -36,9 +36,15 @@ public class Main
 
         }
     } //work in progress
-    private static void vendas(String cliente)
+    private static String[] carrosDisp()
     {
 
+    }
+    private static void vendas()
+    {
+        Print.print("*====*\nVENDAS\n*====*\n\n" +
+                "Carros disponíveis: \n\n");
+        carrosDisp();
     }
     private static void faleConosco()
     {
