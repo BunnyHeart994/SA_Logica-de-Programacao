@@ -1,3 +1,15 @@
+/*
+- Tela Inicial de Bem-vindo ao Sistema.
+- Menu Inicial contendo as principais funcionalidades e Informações.
+- Vendas, Alugueis, Fale Conosco, Dúvidas Frequentes, Sobre.
+- Sub Menu (Veículos, tipos de Veículos, valores, comprar, alugar, parcelas,
+    descontos, juros, nome do cliente, idade, CNH, Categoria CNH, orçamentos,
+    simular valor do aluguel).
+- Caso o cliente aprove a simulação do aluguel ou tenha interesse de compra
+    de um veículo, mostrar uma opção de agendamento com um dos atendentes.
+- Retornar em outras partes do menu, sub menu, opção de realizar novo
+    atendimento, continuar atendimento anterior e finalizar o sistema.
+*/
 public class Main
 {
     public static void main(String[] args)
@@ -7,9 +19,12 @@ public class Main
     private static void menuInic(boolean saudar)
     {
         if (saudar)
+        {
             Print.print("\n\t\t*============================*\n" +
                     "\t\tBem-vindo ao Sistema MaoNaRoda\n" +
                     "\t\t*============================*\n\n");
+            String[] carros = new String[5];
+        }
 
         short opc = Scan.aShort("Selecione uma opção: ");
         switch (opc)
@@ -19,7 +34,7 @@ public class Main
             case 3: faleConosco();
             case 4: faq();
             case 5: sobre();
-            case 6:;
+            case 6: reset();
         }
     }
     public static short catchShort(Object theShort, Object method) //work in progress
@@ -35,16 +50,20 @@ public class Main
             menuInic(false);
 
         }
-    } //work in progress
-    private static String[] carrosDisp()
+    }
+    private static void comprarCar()
     {
 
+    }
+    private static String[] carrosDisp()
+    {
+        return {"", ", ", "", "", ""};
     }
     private static void vendas()
     {
         Print.print("*====*\nVENDAS\n*====*\n\n" +
                 "Carros disponíveis: \n\n");
-        carrosDisp();
+
     }
     private static void faleConosco()
     {
