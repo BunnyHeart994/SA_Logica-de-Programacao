@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbed3ede-0bd2-4bed-8e6c-bcdf4b73396e" name="Changes" comment="" />
+    <list default="true" id="dbed3ede-0bd2-4bed-8e6c-bcdf4b73396e" name="Changes" comment="Second first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SA Log. de Prog" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BunnyHeart994"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BunnyHeart994/SA_Logica-de-Programacao.git",
+    "accountId": "2b0f3b69-0f17-430b-9319-1b6f0adbdde4"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -19,6 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -31,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731436744820</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second first commit">
+      <option name="closed" value="true" />
+      <created>1731436978277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731436978277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second first commit" />
   </component>
 </project>
