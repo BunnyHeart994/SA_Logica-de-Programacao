@@ -10,6 +10,11 @@ public class Scan
         Print.print(text);
         return scan.nextInt();
     }
+    public static short aShort(String text)
+    {
+        Print.print(text);
+        return scan.nextShort();
+    }
     public static double floatingPoint(String text)
     {
         Print.print(text);
@@ -30,6 +35,10 @@ public class Scan
     public static int integer()
     {
         return scan.nextInt();
+    }
+    public static short aShort()
+    {
+        return scan.nextShort();
     }
     public static double floatingPoint()
     {
