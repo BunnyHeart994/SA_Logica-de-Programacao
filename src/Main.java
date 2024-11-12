@@ -14,13 +14,15 @@ public class Main
         short opc = Scan.aShort("Selecione uma opção: ");
         switch (opc)
         {
+            case 1:;
+            case 2:;
             case 3: faleConosco();
             case 4: faq();
             case 5: sobre();
             case 6:;
         }
     }
-    public static short catchShort(short theShort) //work in progress
+    public static short catchShort(Object theShort, Object method) //work in progress
     {
         try
         {
@@ -63,7 +65,9 @@ public class Main
     private static void sobre()
     {
         Print.print("Sistema MãoNaRoda v.1.0\n" +
-                "A Mão na Roda é uma empresa de venda e aluguel de veículos novos," +
-                "localizada na Av. do Contorno, no bairro Savassi em Belo Horizonte.");
+                "A Mão na Roda é uma empresa de venda e aluguel de carros e motos novas, " +
+                "fundada em 2022 por Carlos Alberto, localizada na Av. do Contorno, " +
+                "no bairro Savassi em Belo Horizonte, MG.");
+        menuInic(false);
     }
 }
