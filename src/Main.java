@@ -14,8 +14,8 @@ public class Main
         short opc = Scan.aShort("Selecione uma opção: ");
         switch (opc)
         {
-            case 1:;
-            case 2:;
+            case 1: vendas();
+            case 2: alugueis();
             case 3: faleConosco();
             case 4: faq();
             case 5: sobre();
@@ -36,6 +36,10 @@ public class Main
 
         }
     } //work in progress
+    private static void vendas(String cliente)
+    {
+
+    }
     private static void faleConosco()
     {
         //System.out.println("");
