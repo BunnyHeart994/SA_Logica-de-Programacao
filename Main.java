@@ -16,10 +16,24 @@ public class Main
         {
             case 3: faleConosco();
             case 4: faq();
-            case 5:;
+            case 5: sobre();
             case 6:;
         }
     }
+    public static short catchShort(short theShort) //work in progress
+    {
+        try
+        {
+            short ctrl = theShort;
+            return theShort;
+        }
+        catch (Exception e)
+        {
+            Print.printLn("INPUT INVÁLIDO. ESPERAVA-SE short.");
+            menuInic(false);
+
+        }
+    } //work in progress
     private static void faleConosco()
     {
         //System.out.println("");
@@ -36,5 +50,20 @@ public class Main
         Print.print("\n\t\t*================*\n" +
                 "\t\tDÚVIDAS FREQUENTES\n" +
                 "\t\t*================*\n\n");
+        Print.printLn("Qual é o nosso horário de funcionamento?\n" +
+                "\t-> Somente de segunda a sexta das 7:00 às 20:00.\n" +
+                "Qual é o estado dos nossos carros?\n" +
+                "\t-> Disponibilizamos somente carros novos.\n" +
+                "Quais tipos de veículos nós disponibilizamos?\n" +
+                "\t-> Sim. Somente disponibilizamos carros e motos.\n" +
+                "Fazemos reembolso?\n" +
+                "\t-> Sim, porém apenas se for solicitado dentro do prazo de 7 dias.\n");
+        menuInic(false);
+    }
+    private static void sobre()
+    {
+        Print.print("Sistema MãoNaRoda v.1.0\n" +
+                "A Mão na Roda é uma empresa de venda e aluguel de veículos novos," +
+                "localizada na Av. do Contorno, no bairro Savassi em Belo Horizonte.");
     }
 }
