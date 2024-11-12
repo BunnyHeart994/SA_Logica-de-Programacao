@@ -16,14 +16,15 @@ public class Main
     {
         menuInic(true);
     }
-    private static void menuInic(boolean saudar)
+    private static void menuInic(boolean primAcesso)
     {
-        if (saudar)
+        if (primAcesso) //space for the reset
         {
             Print.print("\n\t\t*============================*\n" +
                     "\t\tBem-vindo ao Sistema MaoNaRoda\n" +
                     "\t\t*============================*\n\n");
-            String[] carros = new String[5];
+            //FOR RESET
+            String[] carros = {"Ford", "Toyota", "Honda", "Lexus", "Wolkswagen"}; //Wolkswagen, das auto
         }
 
         short opc = Scan.aShort("Selecione uma opção: ");
