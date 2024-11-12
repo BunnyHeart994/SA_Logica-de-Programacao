@@ -33,8 +33,8 @@ public class Main
     }
     private static void faq()
     {
-        Print.print("\n\t\t*==========*\n" +
+        Print.print("\n\t\t*================*\n" +
                 "\t\tDÚVIDAS FREQUENTES\n" +
-                "\t\t*==========*\n\n");
+                "\t\t*================*\n\n");
     }
 }
