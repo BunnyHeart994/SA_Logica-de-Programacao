@@ -27,7 +27,7 @@ public class Main
                     "\t\tBem-vindo ao Sistema MaoNaRoda\n" +
                     "\t\t*============================*\n\n");
             //FOR RESET
-            carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", ""}; //Volkswagen, das auto
+            carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", null}; //Volkswagen, das auto
         }
 
         short opc = Scan.aShort("Selecione uma opção: ");
@@ -64,11 +64,8 @@ public class Main
         String str = "";
         for (short i = 0; i < (carros.length / 2); i++)
         {
-            //Print.printLn((carros[i] != null) ? (carros[i] + "\t\t" + carros[carros.length / 2 + i]) : "VENDIDO");
-            if (!carros[i].isEmpty())
-                str = str.concat("\n" + carros[i] + "\t\t" + carros[(carros.length / 2) + i]);
-            else
-                str = str.concat("Vendido");
+            str = str.concat(((carros[i] != null) ? carros[i] + "\t\t" + ((carros[carros.length / 2 + i] == null) ?
+                    "VENDIDO" : carros[carros.length / 2 + i] + "\n") : "ERRO CRÍTICO. ENCERRANDO..."));
         }
         return str;
     }
