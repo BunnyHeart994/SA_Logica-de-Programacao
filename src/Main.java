@@ -10,6 +10,8 @@
 - Retornar em outras partes do menu, sub menu, opção de realizar novo
     atendimento, continuar atendimento anterior e finalizar o sistema.
 */
+import java.util.Arrays;
+
 public class Main
 {
     public static String[] carros;
@@ -25,21 +27,21 @@ public class Main
                     "\t\tBem-vindo ao Sistema MaoNaRoda\n" +
                     "\t\t*============================*\n\n");
             //FOR RESET
-            carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", "Peugeot"}; //Volkswagen, das auto
+            carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", ""}; //Volkswagen, das auto
         }
 
         short opc = Scan.aShort("Selecione uma opção: ");
         switch (opc)
         {
-            case 1: vendas();
-            case 2: alugueis();
-            case 3: faleConosco();
-            case 4: faq();
-            case 5: sobre();
-            case 6: reset();
+            case 1: vendas(); break;
+            case 2: //alugueis(); break;
+            case 3: faleConosco(); break;
+            case 4: faq(); break;
+            case 5: sobre(); break;
+            case 6: //reset(); break;
         }
     }
-    public static short catchShort(Object theShort, Object method) //work in progress
+    /*public static short catchShort(Object theShort, Object method) //work in progress
     {
         try
         {
@@ -56,24 +58,24 @@ public class Main
     private static void comprarCar()
     {
 
-    }
+    }*/
     private static String carrosDisp()
     {
-        String carrosStr;
-        for (short i = 0; i < carros.length; i++)
+        String str = "";
+        for (short i = 0; i < (carros.length / 2); i++)
         {
-            if (carros.length / 2)
-            for(short j = (short) (carros.length / 2 + 1); j <= carros.length / 2; j++)
-            if (i > carros.length / 2 - 1)
-                Print.printLn("");
-            carrosStr = carros[i];
+            //Print.printLn((carros[i] != null) ? (carros[i] + "\t\t" + carros[carros.length / 2 + i]) : "VENDIDO");
+            if (!carros[i].isEmpty())
+                str = str.concat("\n" + carros[i] + "\t\t" + carros[(carros.length / 2) + i]);
+            else
+                str = str.concat("Vendido");
         }
-        return carros;
+        return str;
     }
     private static void vendas()
     {
         Print.print("*====*\nVENDAS\n*====*\n\n" +
-                "Carros disponíveis: \n\n" + carros);
+                "Carros disponíveis: \n" + carrosDisp());
 
     }
     private static void faleConosco()
