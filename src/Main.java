@@ -12,6 +12,7 @@
 */
 public class Main
 {
+    public static String[] carros;
     public static void main(String[] args)
     {
         menuInic(true);
@@ -24,7 +25,7 @@ public class Main
                     "\t\tBem-vindo ao Sistema MaoNaRoda\n" +
                     "\t\t*============================*\n\n");
             //FOR RESET
-            String[] carros = {"Ford", "Toyota", "Honda", "Lexus", "Wolkswagen"}; //Wolkswagen, das auto
+            carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", "Peugeot"}; //Volkswagen, das auto
         }
 
         short opc = Scan.aShort("Selecione uma opção: ");
@@ -56,14 +57,23 @@ public class Main
     {
 
     }
-    private static String[] carrosDisp()
+    private static String carrosDisp()
     {
-        return {"", ", ", "", "", ""};
+        String carrosStr;
+        for (short i = 0; i < carros.length; i++)
+        {
+            if (carros.length / 2)
+            for(short j = (short) (carros.length / 2 + 1); j <= carros.length / 2; j++)
+            if (i > carros.length / 2 - 1)
+                Print.printLn("");
+            carrosStr = carros[i];
+        }
+        return carros;
     }
     private static void vendas()
     {
         Print.print("*====*\nVENDAS\n*====*\n\n" +
-                "Carros disponíveis: \n\n");
+                "Carros disponíveis: \n\n" + carros);
 
     }
     private static void faleConosco()
