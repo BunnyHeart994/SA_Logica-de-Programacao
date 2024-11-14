@@ -13,8 +13,8 @@
 public class Main
 {
     public static String[] carros;
-    public static final short[] precoCars = new short[] {(short)100_000, (short)80_000,
-            (short)85_000, (short)120_000, (short)90_000, (short)110_000};
+    public static final int[] precoCars = new int[] {100_000, 80_000, 85_000, 120_000,
+            90_000, 110_000};
     public static void main(String[] args)
     {
         menuInic(true);
@@ -54,25 +54,19 @@ public class Main
             menuInic(false);
 
         }
-    }
-    private static void comprarCar()
-    {
-
     }*/
-    private static String returnElementStr(Short index, String[] arr)
+    private static String getElementoArrStr(Short index, String[] arr)
     {
-        for (short i = 0; i < arr.length; i++)
+        return (arr[index] == null) ? "VENDIDO" : arr[index];
+    }
+    private static Integer getPrecoCar(String carro)
+    {
+        for (short i = 0; i < carros.length; i++)
         {
-            if (index == null)
-                continue;
-            if (index == (arr[i]))
-                return i;
+            if (carros[i].equalsIgnoreCase(carro))
+                return precoCars[i];
         }
         return null;
-    }
-    private static short getPrecoCar(Short carro)
-    {
-        return (carro == null) ? -1 : precoCars[carro];
     }
     private static String carrosDisp()
     {
@@ -88,17 +82,16 @@ public class Main
     private static void vendas()
     {
         Print.print("*====*\nVENDAS\n*====*\n\n" +
-                "Carros disponíveis: \n" + carrosDisp());
-        Print.print("\nQual você deseja comprar?\n1 - " + carros[0] +
-                "\n2 - " + carros[1] + "\n3 - " + carros[2] + "\n4 - " + carros[3] + "\n4 - " + carros[3] +
-                "\n5 - " + carros[4] + "\n6 - " + carros[5] + "\n--> ");
-        short opcCar = Scan.aShort();
-        Print.print("Você escolheu um " + returnIndexShort(opcCar, carros) +
-                ".\nO preço é " + getPrecoCar(returnIndexStr(opcCar, carros)) +
-                "\nVocê deseja comprar (S ou N)?\n-> "); //WORK IN PROGRESS; UPDATE SCAN
+                "Carros disponíveis: \n");
 
-        /*for (short i = 0; i < str.length; i++)
-            return (str == arr[i]) ? i : null;*/
+        for (short i = 0; i < carros.length; i++)
+            Print.print(i + " - " + ((carros[i] == null) ? "VENDIDO" : carros[i]) + "\n");
+        Print.print("\nQual você deseja comprar?\n-->");
+
+        short opcCar = Scan.aShort();
+        Print.print("Você escolheu um " + getElementoArrStr(opcCar, carros) +
+                ".\nO preço é " + getPrecoCar(getElementoArrStr(opcCar, carros)) +
+                "\nVocê deseja comprar (S ou N)?\n-> "); //WORK IN PROGRESS; UPDATE SCAN
     }
     private static void faleConosco()
     {
