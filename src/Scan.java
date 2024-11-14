@@ -46,6 +46,10 @@ public class Scan
     }
     public static String string()
     {
+        /*try
+        {
+
+        }*/
         return scan.nextLine();
     }
     public static char character()

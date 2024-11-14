@@ -77,6 +77,7 @@ public class Main
         {
             str = str.concat(((carros[i] != null) ? carros[i] + "\t\t" + ((carros[carros.length / 2 + i] == null) ?
                     "VENDIDO" : carros[carros.length / 2 + i] + "\n") : "ERRO CRÍTICO. ENCERRANDO..."));
+            /*EXPLAIN ABOVE*/
         }
         return str;
     }
@@ -87,6 +88,7 @@ public class Main
         Print.print("Qual você deseja comprar?\n-> ");
         String opcCar = Scan.string();
         returnIndexStr(opcCar, carros); //WORK IN PROGRESS; UPDATE SCAN
+
         /*for (short i = 0; i < str.length; i++)
             return (str == arr[i]) ? i : null;*/
     }
