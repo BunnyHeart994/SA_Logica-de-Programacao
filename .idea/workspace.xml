@@ -4,17 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26cf32b-bd8f-4485-bccb-e62a2df9ec50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../SA_Log. de Prog/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SA_Log. de Prog/src/Main.java" afterDir="false" />
+    <list default="true" id="a26cf32b-bd8f-4485-bccb-e62a2df9ec50" name="Changes" comment="Work in progress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BunnyHeart994&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BunnyHeart994/SA_Logica-de-Programacao.git&quot;,
+    &quot;accountId&quot;: &quot;0246c49e-2be0-48c3-b635-c89dc2091728&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2oq48qUh2UuR7RyCcPV7MBR7BBh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,21 +40,16 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aluno_Manha/Documents/Henrique/Java Projects/SA_Log. de Prog",
     "onboarding.tips.debug.path": "C:/Users/Aluno_Manha/Documents/Henrique/Java Projects/SA_Log. de Prog/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.16210938",
+    "project.structure.side.proportion": "0.25172412",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SA_Log. de Prog." />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +59,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731583617967</updated>
     </task>
+    <task id="LOCAL-00001" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731587972416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731587972416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work in progress" />
   </component>
 </project>
