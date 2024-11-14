@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26cf32b-bd8f-4485-bccb-e62a2df9ec50" name="Changes" comment="Work in progress">
+    <list default="true" id="dbed3ede-0bd2-4bed-8e6c-bcdf4b73396e" name="Changes" comment="Work in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,13 +32,16 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/BunnyHeart994/SA_Logica-de-Programacao.git&quot;,
-    &quot;accountId&quot;: &quot;0246c49e-2be0-48c3-b635-c89dc2091728&quot;
+    &quot;accountId&quot;: &quot;2b0f3b69-0f17-430b-9319-1b6f0adbdde4&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2oq48qUh2UuR7RyCcPV7MBR7BBh" />
+  <component name="ProjectId" id="2olGR2lF9UbeJgukgWf1v58mJEw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,37 +52,161 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aluno_Manha/Documents/Henrique/Java Projects/SA_Log. de Prog",
-    "onboarding.tips.debug.path": "C:/Users/Aluno_Manha/Documents/Henrique/Java Projects/SA_Log. de Prog/src/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.16210938",
+    "last_opened_file_path": "D:/Projects/Java/SA Log. de Prog",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.25172412",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SA Log. de Prog." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a26cf32b-bd8f-4485-bccb-e62a2df9ec50" name="Changes" comment="" />
-      <created>1731583617967</created>
+      <changelist id="dbed3ede-0bd2-4bed-8e6c-bcdf4b73396e" name="Changes" comment="" />
+      <created>1731436744820</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731583617967</updated>
+      <updated>1731436744820</updated>
     </task>
-    <task id="LOCAL-00001" summary="Work in progress">
+    <task id="LOCAL-00001" summary="Second first commit">
       <option name="closed" value="true" />
-      <created>1731587972416</created>
+      <created>1731436978277</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1731587972416</updated>
+      <updated>1731436978277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixing">
+      <option name="closed" value="true" />
+      <created>1731437541779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731437541779</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixing">
+      <option name="closed" value="true" />
+      <created>1731437631632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731437631632</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1731438784114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731438784114</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731439048155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731439048155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731439761703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731439761703</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731449947306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731449947306</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731450823732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731450823732</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731489173578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731489173578</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731539374099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731539374099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Work in progress">
+      <option name="closed" value="true" />
+      <created>1731576127132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731576127132</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second first commit" />
+    <MESSAGE value="Fixing" />
+    <MESSAGE value="Update" />
     <MESSAGE value="Work in progress" />
     <option name="LAST_COMMIT_MESSAGE" value="Work in progress" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
