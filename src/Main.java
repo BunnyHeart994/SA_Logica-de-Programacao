@@ -10,11 +10,10 @@
 - Retornar em outras partes do menu, sub menu, opção de realizar novo
     atendimento, continuar atendimento anterior e finalizar o sistema.
 */
-import java.util.Arrays;
-
 public class Main
 {
     public static String[] carros;
+    public static final int[] precoCars = new int[] {100_000, 80_000, 85_000, 120_000, 90_000, 110_000};
     public static void main(String[] args)
     {
         menuInic(true);
@@ -70,6 +69,10 @@ public class Main
         }
         return -1;
     }
+    private static short getPrecoCar(short carro)
+    {
+        return (short) precoCars[carro];
+    }
     private static String carrosDisp()
     {
         String str = "";
@@ -87,7 +90,9 @@ public class Main
                 "Carros disponíveis: \n" + carrosDisp());
         Print.print("Qual você deseja comprar?\n-> ");
         String opcCar = Scan.string();
-        returnIndexStr(opcCar, carros); //WORK IN PROGRESS; UPDATE SCAN
+        Print.print("Você escolheu um " + returnIndexStr(opcCar, carros) +
+                ".\nO preço é " + getPrecoCar(returnIndexStr(opcCar, carros)) +
+                "\nVocê deseja comprar (S ou N)?\n-> "); //WORK IN PROGRESS; UPDATE SCAN
 
         /*for (short i = 0; i < str.length; i++)
             return (str == arr[i]) ? i : null;*/
