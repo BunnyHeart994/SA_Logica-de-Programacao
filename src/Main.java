@@ -59,6 +59,17 @@ public class Main
     {
 
     }*/
+    private static short returnIndexStr(String str, String [] arr)
+    {
+        for (short i = 0; i < arr.length; i++)
+        {
+            if (str == null)
+                continue;
+            if (str.equalsIgnoreCase(arr[i]))
+                return i;
+        }
+        return -1;
+    }
     private static String carrosDisp()
     {
         String str = "";
@@ -73,7 +84,11 @@ public class Main
     {
         Print.print("*====*\nVENDAS\n*====*\n\n" +
                 "Carros disponíveis: \n" + carrosDisp());
-
+        Print.print("Qual você deseja comprar?\n-> ");
+        String opcCar = Scan.string();
+        returnIndexStr(opcCar, carros); //WORK IN PROGRESS; UPDATE SCAN
+        /*for (short i = 0; i < str.length; i++)
+            return (str == arr[i]) ? i : null;*/
     }
     private static void faleConosco()
     {
