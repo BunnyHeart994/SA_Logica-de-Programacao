@@ -29,16 +29,17 @@ public class Main
             //FOR RESET
             carros = new String[] {"Ford", "Toyota", "Honda", "Lexus", "Volkswagen", null}; //Volkswagen, das auto
         }
-        Print.print("1 - VENDAS\n2 - FALE CONOSCO\n3 - FAQ\n" +
-                "4 - SOBRE\n5 - SAIR\n");
+        Print.print("1 - VENDAS\n2 - ALUGUÉIS\n3 - FALE CONOSCO\n4 - FAQ\n" +
+                "5 - SOBRE\n6 - SAIR\n");
         short opc = Scan.aShort("Selecione uma opção: ");
         switch (opc)
         {
             case 1: vendas(); break;
-            case 2: faleConosco(); break;
-            case 3: faq(); break;
-            case 4: sobre(); break;
-            case 5: sair(); break;
+            case 2: alugueis(); break;
+            case 3: faleConosco(); break;
+            case 4: faq(); break;
+            case 5: sobre(); break;
+            case 6: sair(); break;
             default: Print.print("Inválido. Tente novamente.\n"); menuInic(false); break;
         }
     }
